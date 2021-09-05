@@ -1,3 +1,3 @@
-# EN
+# EN-嵌入式系統
 
-![OIPWUKI1UZX](https://user-images.githubusercontent.com/89717315/131237272-7864947d-2e67-45b8-acf9-2008ac456d0c.jpg)
+![image](https://user-images.githubusercontent.com/89717315/132114876-e4f9ec79-6ab2-478a-8b38-ae8ee0f26962.png)
