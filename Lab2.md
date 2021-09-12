@@ -7,3 +7,4 @@
 ## 實作2-3, 讓你的RGB LED燈全彩模組也可會"呼吸", LED顏色變化是否有像"呼吸的效果"和示波器的波形有什麼關連性?
 ![image](https://user-images.githubusercontent.com/89717315/132972525-33080f8e-1f5b-4f80-a8bc-451c1d09de66.png)
 ## 實作2-4 analogRead(), 1024解析度 (i.e.,10-bit): 可變電阻 + 序列監視器與輸出; 當你改變可變電阻的阻值(e.g., 10K-ohm)時，序列監視器輸出的數值有什麼改變? 數值又有什麼意義呢?
+![image](https://user-images.githubusercontent.com/89717315/132973325-f1dcddd1-d217-4bf4-8a8f-ac1199f9be94.png)
