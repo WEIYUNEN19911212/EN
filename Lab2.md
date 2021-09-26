@@ -123,3 +123,32 @@ void loop() {
   Serial.println(voltage);
 }
 ````
+## 實作2-5: 按下按鍵, Green LED亮 & Red LED滅; 放開按鍵, Green LED滅 & Red LED亮. 想要再深入的同學可以試試喔. (思考方向: digitalRead(), digitalWrite(): 按鍵 +序列輸出 + LED), (互動5) (2021-09-19) 
+![chrome-capture](https://user-images.githubusercontent.com/89717315/134792549-af3acfa0-f997-4c57-9131-138e107b6490.gif)
+程式
+````c
+int buttonState = 0;
+
+void setup()
+{
+  pinMode(2, INPUT);
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+void loop()
+{
+  
+  buttonState = digitalRead(2);
+  if (buttonState == HIGH) {
+  
+    digitalWrite(13, HIGH);
+    digitalWrite(8, LOW);
+    
+  } else {
+    
+    digitalWrite(13, LOW);
+    digitalWrite(8, HIGH);
+  }
+  delay(10); 
+}
+````
