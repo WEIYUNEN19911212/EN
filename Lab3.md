@@ -44,3 +44,5 @@ void loop()
   delay(100); 
 }
 ````
+## Lab 3-2: 超音波感測器 + LED (紅色LED:亮<70cm, 緑色LED: 亮>270cm, 藍色LED:亮, 介於70cm ~ 270cm之間) + RS232 Output
+![chrome-capture (3)](https://user-images.githubusercontent.com/89717315/134793587-4666d207-890e-407a-97d8-13a50b78970b.gif)
