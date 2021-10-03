@@ -124,3 +124,6 @@ void loop()
   delay(100); 
 }
 ````
+## Lab 3-3: Arudino常用的C語言程式介紹與實作
+##### 請使用Arudino, 通過Serial印出9X9乘法表, 計算時亮紅色LED, 綠色LED慢慢變亮亮完成時全亮, 並且紅色LED OFF, 細節可參考以下Demo作法:
+![chrome-capture (1)](https://user-images.githubusercontent.com/89717315/135738556-52093680-92af-496e-ab8b-7bc4637def1f.gif)
