@@ -1,6 +1,7 @@
 # 嵌入式系統 - 實作4: 七段顯示器, LCD 顯示器 + 超音波感測器
 ## Lab 4-1 用七段顯示器來顯示數字"8."
 ![chrome-capture](https://user-images.githubusercontent.com/89717315/138009986-ec98d2e3-3999-4622-b68d-5b23a39a3c4e.gif)
+
 程式
 ````C
 void setup()
@@ -72,5 +73,32 @@ void loop()
   seg71(1, 1, 1, 0, 0, 0, 0, 1); // 7
   seg71(1, 1, 1, 1, 1, 1, 1, 1); // 8
   seg71(1, 1, 1, 1, 0, 1, 1, 1); // 9
+}
+````
+## Lab 4-3 LCD顯示"Hello" + 你的英文名字 (e.g., "Hello Paul")
+![image](https://user-images.githubusercontent.com/89717315/138551963-1fc988a8-dff7-4d34-8168-1862f50b5c21.png)
+
+程式
+
+````C
+// include the library code:
+#include <LiquidCrystal.h>
+
+// initialize the library with the numbers of the interface pins
+LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
+
+void setup() {
+  // set up the LCD's number of columns and rows:
+  lcd.begin(16, 2);
+  // Print a message to the LCD.
+  lcd.print("hello, Paul!");
+}
+
+void loop() {
+  // set the cursor to column 0, line 1
+  // (note: line 1 is the second row, since counting begins with 0):
+  lcd.setCursor(0, 1);
+  // print the number of seconds since reset:
+  lcd.print("2021/10/17");
 }
 ````
