@@ -41,3 +41,39 @@ void loop()
   }
 }
 ````
+### Lab 5-2 LCD顯示溫度感應器的溫度;若溫度<38 綠LED亮; 若大於38度, 紅色LED亮, 細節請參考以下Demo
+![chrome-capture (3)](https://user-images.githubusercontent.com/89717315/138580186-19b1f3e3-be59-4087-b4c7-b4d67db89c93.gif)
+### 程式
+````C
+// For Embedded System course, VNU, Fall 2021 
+
+#include <LiquidCrystal.h>
+
+LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
+
+void setup() {
+  lcd.begin(16, 2);
+  Serial.begin(9600);	
+  pinMode(A1, INPUT); // Read analog voltage (2^10)
+
+}
+
+void loop() {
+  int reading = analogRead(A1);  // read analog level (2^10)
+  lcd.setCursor(0,0);  
+  lcd.print("TMP Sensor Demo");
+
+  float voltage = (reading/1024.0) * 5.0; // Convert to voltage
+  
+  // converting from 10mv per degree with 500mV offset  
+  float tempC = (voltage - 0.5) * 100.0; 
+  lcd.setCursor(0,1);
+  lcd.print("Tmp:");
+  lcd.print(tempC);
+  lcd.print(" C");
+  delay(500);
+  lcd.clear();
+  Serial.println(reading);
+  Serial.println(voltage);  
+}
+````
