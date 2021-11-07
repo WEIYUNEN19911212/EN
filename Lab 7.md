@@ -9,5 +9,7 @@
 ## Lab 7-2 十分鐘學會Python!? Really?
 程序
 
+
+
 ## Lab 7-3 確認Lab7完成的兩個筆記本都成功的存在你的雲端硬盤碟/ES2021目錄下
 ![image](https://user-images.githubusercontent.com/89717315/140635332-0e0efc0a-c2e9-4fd3-959a-9faab75b6d87.png)
