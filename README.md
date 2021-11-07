@@ -5,13 +5,13 @@
 
 ## ➲ 連結
 
-[⋙ 萬能](https://www.vnu.edu.tw/zh)
+[📌 萬能](https://www.vnu.edu.tw/zh)
 
-[⋙ 課程公告](https://ivory-gaura-57e.notion.site/60d63bcefee14a7b81b443ac83f99954)
+[📌 課程公告](https://ivory-gaura-57e.notion.site/60d63bcefee14a7b81b443ac83f99954)
 
-[⋙ TINKERCAD](https://www.tinkercad.com/)
+[📌 TINKERCAD](https://www.tinkercad.com/)
 
-[⋙  即時互動](https://docs.google.com/spreadsheets/d/1A24WlsYJWqiKypr65PPd4Qx6N3OHJ9PmJqdnKvX82Eg/htmlview)
+[📌 即時互動](https://docs.google.com/spreadsheets/d/1A24WlsYJWqiKypr65PPd4Qx6N3OHJ9PmJqdnKvX82Eg/htmlview)
 
 [📌雲端硬碟](https://drive.google.com/drive/folders/1Lw40UfnS3juNsgAdjBXkJxI5i-Rtjn4l?ths=true)
 
