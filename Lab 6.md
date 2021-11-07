@@ -59,4 +59,7 @@ void loop(){
   }
 }
 ````
-## Lab 6-2 分享一個你最喜歡或是最有成就感的實作 (電路即可)到你的GitHub, 範列如下
+## Lab 6-2 分享一個你最喜歡或是最有成就感的實作
+## 通過Serial印出9X9乘法表，計算時亮紅色LED，綠色LED逐漸變亮亮完成時全亮，並且紅色LED關閉
+![chrome-capture (1)](https://user-images.githubusercontent.com/89717315/135738556-52093680-92af-496e-ab8b-7bc4637def1f.gif)
+
