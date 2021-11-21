@@ -19,4 +19,6 @@
 ![image](https://user-images.githubusercontent.com/89717315/142749356-5f2f543f-c8d9-4932-a38a-cd983f03e780.png)
 
 ## Lab 8-3 建立新的Colab Notebook (e.g., Filename: ShowPhoto.ipynb), 用Python來Show一下圖像
+實作 show flamingo
 
+![image](https://user-images.githubusercontent.com/89717315/142749673-76076d6f-0ee1-4c7c-b337-53eab42a87b3.png)
