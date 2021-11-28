@@ -171,3 +171,8 @@ show_image(image, '')
 ![image](https://user-images.githubusercontent.com/89717315/143777793-efe766d3-effa-4eeb-a69e-7004acad33dd.png)
 ### 實作C: 如果想要再多試試的同學, 可以挑戰一下從網路上找一張自己喜歡的照片來試試看 (jpg/png)
 ![image](https://user-images.githubusercontent.com/89717315/143729414-e428384e-ed7f-4af6-93b2-2d5a319947ee.png)
+## Lab 9-2 Python的5個回顧練習
+### 一、印出一個9X9的直角視覺，預期的輸出結果如下：
+
+### 2.製作10~30奇數清單，期望輸出結果如下：
+
